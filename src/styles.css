@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Graduate&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Graduate", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  width: 200px;
+  padding: 10px;
+}
+h1 {
+  font-size: 24px;
+  transform: translate(10%, -50%);
+  text-decoration: underline;
+}
+#text {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px;
+  transform: translate(8%, 20%);
+}
+#button {
+  background-color: black;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  transform: translate(45%, 20%);
+  outline: none;
+}
+.qr-image {
+  padding: 8px;
+  transform: translate(15%, 20%);
+}
+.content {
+  background-color: orange;
+  padding: 30px;
+  width: 300px !important;
+  height: 600px;
+}
+button:hover {
+  box-shadow: 2px 2px 2px 2px black;
+  cursor: pointer;
+}
